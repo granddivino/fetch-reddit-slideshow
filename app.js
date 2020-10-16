@@ -43,9 +43,9 @@ function slideshow(pictures) {
 //Function to call pictures
 function print(pictures) {
     let img = document.createElement('img')
+    let counter = 0
     let pic = pictures[counter]
     let removeImage = document.querySelector('img')
-    let counter = 0
     
     if(main.firstElementChild) {
         main.removeChild(removeImage)
